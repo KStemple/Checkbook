@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Contacts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contact>
+    <Id>79a66f66-ff9b-4a90-aba0-276a00a4510c</Id>
+    <FirstName>Jack</FirstName>
+    <LastName>Daniels</LastName>
+  </Contact>
+  <Contact>
+    <Id>e0a5a306-279d-4390-ba59-c4bfd389c53d</Id>
+    <FirstName>Biggie</FirstName>
+    <LastName>Smalls</LastName>
+  </Contact>
+  <Contact>
+    <Id>c0a274d8-3fc1-4d25-b133-9ddaadb0ea5f</Id>
+    <FirstName>Kris</FirstName>
+    <LastName>Kringle</LastName>
+    <Company>Christmas Express</Company>
+    <Address1>123 4th Ave</Address1>
+    <Address2>Add 2</Address2>
+    <City>North</City>
+    <State>Pole</State>
+    <Zipcode>26101</Zipcode>
+    <PhoneNumber>304-422-9999</PhoneNumber>
+  </Contact>
+</Contacts>

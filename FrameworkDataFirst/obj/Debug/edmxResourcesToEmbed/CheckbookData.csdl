@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CheckbookModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="CheckbookContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categories" EntityType="CheckbookModel.Category" />
+    <EntitySet Name="Ledgers" EntityType="CheckbookModel.Ledger" />
+    <AssociationSet Name="FK_CategoryLedger" Association="CheckbookModel.FK_CategoryLedger">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Ledgers" EntitySet="Ledgers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Ledgers" Relationship="CheckbookModel.FK_CategoryLedger" FromRole="Categories" ToRole="Ledgers" />
+  </EntityType>
+  <EntityType Name="Ledger">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="DateTime" Type="DateTime" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="CategoryId" Type="Guid" Nullable="false" />
+    <Property Name="PayerId" Type="Guid" Nullable="false" />
+    <Property Name="CheckNumber" Type="String" Nullable="false" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="InvoiceNumber" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+    <Property Name="Memo" Type="String" Nullable="false" MaxLength="4000" Unicode="true" FixedLength="false" />
+    <Property Name="Category_Id" Type="Guid" Nullable="false" />
+    <NavigationProperty Name="Category" Relationship="CheckbookModel.FK_CategoryLedger" FromRole="Ledgers" ToRole="Categories" />
+  </EntityType>
+  <Association Name="FK_CategoryLedger">
+    <End Role="Categories" Type="CheckbookModel.Category" Multiplicity="1" />
+    <End Role="Ledgers" Type="CheckbookModel.Ledger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ledgers">
+        <PropertyRef Name="Category_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

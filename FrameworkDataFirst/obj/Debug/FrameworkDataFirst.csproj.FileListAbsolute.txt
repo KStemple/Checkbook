@@ -1,0 +1,6 @@
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\FrameworkDataFirst\bin\Debug\Checkbook.sdf
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\FrameworkDataFirst\bin\Debug\FrameworkDataFirst.dll.config
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\FrameworkDataFirst\bin\Debug\FrameworkDataFirst.dll
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\FrameworkDataFirst\bin\Debug\FrameworkDataFirst.pdb
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\FrameworkDataFirst\obj\Debug\FrameworkDataFirst.dll
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\FrameworkDataFirst\obj\Debug\FrameworkDataFirst.pdb

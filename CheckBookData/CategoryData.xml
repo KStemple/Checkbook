@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Categories xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Category>
+    <Id>1fa9ae84-3c10-4d07-9d23-64aa714fd3b9</Id>
+    <Name>Work</Name>
+  </Category>
+  <Category>
+    <Id>4bae5e64-5d30-4747-8b9f-1b3895fb80d1</Id>
+    <Name>Personal</Name>
+  </Category>
+  <Category>
+    <Id>98cba3bb-7ad4-47e5-838e-806af46b4919</Id>
+    <Name>Utilities</Name>
+  </Category>
+</Categories>

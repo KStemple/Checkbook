@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CheckbookModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="CheckbookModelStoreContainer">
+    <EntitySet Name="Categories" EntityType="CheckbookModel.Store.Categories" store:Type="Tables" />
+    <EntitySet Name="Ledgers" EntityType="CheckbookModel.Store.Ledgers" store:Type="Tables" />
+    <AssociationSet Name="FK_CategoryLedger" Association="CheckbookModel.Store.FK_CategoryLedger">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Ledgers" EntitySet="Ledgers" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Ledgers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="DateTime" Type="datetime" Nullable="false" />
+    <Property Name="Amount" Type="numeric" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="CategoryId" Type="uniqueidentifier" />
+    <Property Name="PayerId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="CheckNumber" Type="nvarchar" MaxLength="6" />
+    <Property Name="InvoiceNumber" Type="nvarchar" />
+    <Property Name="Memo" Type="nvarchar" />
+    <Property Name="Category_Id" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_CategoryLedger">
+    <End Role="Categories" Type="CheckbookModel.Store.Categories" Multiplicity="1" />
+    <End Role="Ledgers" Type="CheckbookModel.Store.Ledgers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Ledgers">
+        <PropertyRef Name="Category_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

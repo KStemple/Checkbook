@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Ledgers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Ledger>
+    <DateTime>2013-12-09T18:32:54.388817-05:00</DateTime>
+    <Amount>10</Amount>
+    <Balance>45</Balance>
+    <CheckNumber />
+    <InvoiceNumber />
+    <Memo />
+    <ContactId>79a66f66-ff9b-4a90-aba0-276a00a4510c</ContactId>
+    <Id>488a2726-b478-4c69-b8af-15f7a87174d5</Id>
+    <CategoryId>00000000-0000-0000-0000-000000000000</CategoryId>
+  </Ledger>
+  <Ledger>
+    <DateTime>2013-12-09T18:33:23.7124942-05:00</DateTime>
+    <Amount>15</Amount>
+    <Balance>25</Balance>
+    <CheckNumber />
+    <InvoiceNumber />
+    <Memo />
+    <ContactId>e0a5a306-279d-4390-ba59-c4bfd389c53d</ContactId>
+    <Id>8a702826-1cf6-4cae-9d77-02f17a2f5c58</Id>
+    <CategoryId>00000000-0000-0000-0000-000000000000</CategoryId>
+  </Ledger>
+  <Ledger>
+    <DateTime>2013-12-09T18:38:11.7189673-05:00</DateTime>
+    <Amount>25</Amount>
+    <Balance>50</Balance>
+    <CheckNumber />
+    <InvoiceNumber />
+    <Memo />
+    <ContactId>e0a5a306-279d-4390-ba59-c4bfd389c53d</ContactId>
+    <Id>f1a8118e-056c-42eb-bac0-68b428b3f2db</Id>
+    <CategoryId>98cba3bb-7ad4-47e5-838e-806af46b4919</CategoryId>
+    <Category>
+      <Id>98cba3bb-7ad4-47e5-838e-806af46b4919</Id>
+      <Name>Utilities</Name>
+    </Category>
+  </Ledger>
+  <Ledger>
+    <DateTime>2013-12-09T18:47:25.3246317-05:00</DateTime>
+    <Amount>15</Amount>
+    <Balance>65</Balance>
+    <CheckNumber />
+    <InvoiceNumber />
+    <Memo />
+    <ContactId>79a66f66-ff9b-4a90-aba0-276a00a4510c</ContactId>
+    <Id>a4204280-4b7d-46a0-b2f8-e7165531985b</Id>
+    <CategoryId>1fa9ae84-3c10-4d07-9d23-64aa714fd3b9</CategoryId>
+    <Category>
+      <Id>1fa9ae84-3c10-4d07-9d23-64aa714fd3b9</Id>
+      <Name>Work</Name>
+    </Category>
+  </Ledger>
+  <Ledger>
+    <DateTime>2013-12-09T19:10:50.4929738-05:00</DateTime>
+    <Amount>5</Amount>
+    <Balance>70</Balance>
+    <CheckNumber />
+    <InvoiceNumber />
+    <Memo />
+    <ContactId>79a66f66-ff9b-4a90-aba0-276a00a4510c</ContactId>
+    <Id>2f09492d-0312-4e05-8d6c-76c4152d1537</Id>
+    <CategoryId>1fa9ae84-3c10-4d07-9d23-64aa714fd3b9</CategoryId>
+  </Ledger>
+</Ledgers>

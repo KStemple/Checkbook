@@ -1,0 +1,15 @@
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\Framework\bin\Debug\Framework.dll
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\Framework\bin\Debug\Framework.pdb
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\Framework\obj\Debug\Framework.dll
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\Framework\obj\Debug\Framework.pdb
+C:\Users\cbrown.NCHANNEL\documents\visual studio 2010\Projects\Checkbook\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+C:\Users\Danny\Desktop\Checkbook\Framework\bin\Debug\Framework.dll
+C:\Users\Danny\Desktop\Checkbook\Framework\bin\Debug\Framework.pdb
+C:\Users\Danny\Desktop\Checkbook\Framework\obj\Debug\Framework.dll
+C:\Users\Danny\Desktop\Checkbook\Framework\obj\Debug\Framework.pdb
+C:\Users\Danny\Desktop\Checkbook\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+C:\Users\Danny\Dropbox\Programming\C#\Checkbook\Framework\bin\Debug\Framework.dll
+C:\Users\Danny\Dropbox\Programming\C#\Checkbook\Framework\bin\Debug\Framework.pdb
+C:\Users\Danny\Dropbox\Programming\C#\Checkbook\Framework\obj\Debug\Framework.csprojResolveAssemblyReference.cache
+C:\Users\Danny\Dropbox\Programming\C#\Checkbook\Framework\obj\Debug\Framework.dll
+C:\Users\Danny\Dropbox\Programming\C#\Checkbook\Framework\obj\Debug\Framework.pdb
